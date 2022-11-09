@@ -45,7 +45,7 @@ docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 --restart=unless-stopp
 ```
 ㄴ @SpringBootApplication 어노테이션에 @AutoConfigure 덕분에 디펜던시 설정만 하면 자동으로 RabbitMQ 서버에 등록된다 <br>
 
-8. Microservice간 통신을 하기 위해 RestTemplate와 FeignClient를 사용<br>
+9. Microservice간 통신을 하기 위해 RestTemplate와 FeignClient를 사용<br>
 ㄴ RestTemplate는 직관적으로 확인가능하고 FeignClient는 좀더 가독성 좋은 코드를 작성할 수 있었다.<br>
 ㄴ User 서비스에서 유저를 조회했을 때 Order 서비스의 api를 요청하고 반환받을 수 있다!<br>
 ㄴ ErrorDecoder를 사용해 만약 order서비스에서 에러가 났을 때 user서비스는 반환 하고 order서비스만 나오지 않도록 예외처리 가능<br>
