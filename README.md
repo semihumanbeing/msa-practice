@@ -2,7 +2,7 @@
 Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) 을 공부했다.
 
 ### 구현 정보
-Java 11, Spring 2.4.2, Spring cloud 2020.0.0
+Java 11, Spring 2.4.2, Spring cloud 2020.0.0 <br>
 Spring Cloud 를 사용해 클라우드 기반의 아키텍쳐로 쇼핑몰을 구현했다. <br>
 구현된 모듈은 프론트는 없고 서버와 backend api로 이루어져있다.<br>
 테스트는 Postman을 사용했다.
